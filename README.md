@@ -32,17 +32,19 @@ The dashboard surfaces four areas of insight:
 3. **Sub-Category Winners & Losers** — Tables, Bookcases, Supplies bleed money; Copiers and Paper deliver 30%+ margins
 4. **Regional Performance** — comparing North, South, East, West
 
-## 📁 Project Structure```
+## 📁 Project Structure
+
+​```
 .
 ├── README.md
 ├── sql/
-│   ├── 01_setup.sql          # Database, schema, table, stage creation
-│   ├── 02_load_data.sql      # COPY INTO command
-│   └── 03_analytics.sql      # Analytical queries
-├── streamlit_app.py          # Dashboard code
+│   ├── 01_setup.sql
+│   ├── 02_load_data.sql
+│   └── 03_analytics.sql
+├── streamlit_app.py
 └── screenshots/
     └── dashboard.png
-```
+​```
 
 ## 🚀 Running This Project Yourself
 
